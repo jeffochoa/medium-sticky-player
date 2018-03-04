@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Medium.com sticky player",
+  "description": "Makes the audio-player sticky on Medium.com website.",
+  "version": "1.0",
+  "author": "Jeff Ochoa",
+  "homepage_url": "https://github.com/jeffochoa/medium-sticky-player",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Active sticky player!"
+  },
+  "background": {
+    "scripts": ["./background.js"]
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
